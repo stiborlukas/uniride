@@ -1,37 +1,147 @@
+<!doctype html>
 <html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>uniride</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
+        <title>uniride - bikesharing zdarma pro studenty ČVUT</title>
+        <meta
+            name="description"
+            content="Z přednášky na kolej. Bikesharing zdarma pro studenty ČVUT."
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700;800&family=Courier+Prime:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="wrap">
+                <div class="mask wm" role="img" aria-label="uniride"></div>
+                <nav>
+                    <a class="hide" href="#jak">Jak to funguje</a
+                    ><a class="hide" href="#zdarma">Proč zdarma</a
+                    ><a
+                        class="btn primary"
+                        style="padding: 8px 18px; font-size: 16px"
+                        href="#zapis"
+                        >Chci jezdit</a
+                    >
+                </nav>
+            </div>
+        </header>
 
-        html, body {
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-            background-color: #f4f0e4; 
-        }
+        <main>
+            <div class="wrap hero">
+                <div>
+                    <div class="tag">bikesharing pro studenty čvut</div>
+                    <h1>Ride free.<br /><mark>Study more.</mark></h1>
+                    <p class="lead">
+                        Rychlá a bezplatná doprava mezi kampusy Dejvice, Karlovo
+                        náměstí a kolejemi Strahov či Podolí. Půjč si kolo bez
+                        minutových sazeb a měj více času na studium.
+                    </p>
+                    <div class="cta">
+                        <a class="btn primary" href="#zapis"
+                            >Získat předběžný přístup</a
+                        ><a class="btn" href="#jak">Jak to funguje</a>
+                    </div>
+                </div>
+                <div class="mask bike" role="img"></div>
+            </div>
 
-        .fullscreen-image {
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
-            object-position: center; 
-            display: block;
-        }
-    </style>
-</head>
-<body>
+            <div class="wrap">
+                <section id="jak">
+                    <div class="label">01 / jak to funguje</div>
+                    <h2>Od koleje k přednášce ve 3 jednoduchých krocích.</h2>
+                    <div class="grid">
+                        <div class="card">
+                            <div class="n">01</div>
+                            <h3>Přihlaš se přes ČVUT účet</h3>
+                            <p>
+                                Žádné platební karty ani předplatné. Stačí tvá
+                                školní identita (SSO / KOS) nebo ISIC.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="n">02</div>
+                            <h3>Odemkni a jeď</h3>
+                            <p>
+                                Naskenuj QR kód v mobilní aplikaci nebo přilož
+                                kartu ČVUT k zámku. Než dopiješ kávu, jedeš.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <div class="n">03</div>
+                            <h3>Zaparkuj</h3>
+                            <p>
+                                Kolo odlož do vyznačené stanice u tvé fakulty
+                                nebo kolejí, zamkni a hotovo.
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
-    <img 
-        class="fullscreen-image" 
-        src="identity.png" 
-    />
+                <section id="zdarma">
+                    <div class="free">
+                        <div>
+                            <div class="label">02 / proč zdarma</div>
+                            <h2 style="margin-bottom: 24px">
+                                Komerční minutovky neřeší přeplněné autobusy na
+                                Strahov. UniRide ano.
+                            </h2>
+                            <p>
+                                UniRide vzniká jako ryze studentský projekt pro
+                                ČVUT. Víme, jak náročné je stíhat přejezdy mezi
+                                Dejvicemi a Karlovým náměstím v dopravní špičce.
+                                Díky podpoře univerzity a partnerům stavíme
+                                flotilu dostupnou všem studentům 100% zdarma.
+                            </p>
+                        </div>
+                        <ul>
+                            <li>
+                                <span>0 Kč</span>za každou jízdu mezi kampusy a
+                                kolejemi
+                            </li>
+                            <li>
+                                <span>1 klik</span>přihlášení přes tvůj ČVUT
+                                login
+                            </li>
+                            <li>
+                                <span>100%</span>udržitelná a zdravá
+                                mikromobilita pro univerzitu
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
 
-</body>
+            <div class="wrap" id="zapis">
+                <div class="join">
+                    <h2>Chceš testovat mezi prvními?</h2>
+                    <p>
+                        UniRide aktivně vyvíjíme. Zanech nám svůj školní e-mail,
+                        získej předběžný přístup do mobilní aplikace a buď mezi
+                        prvními, kdo nasedne.
+                    </p>
+                    <a
+                        class="btn"
+                        href="mailto:ahoj@uniride.cz?subject=Testovani%20UniRide%20aplikace"
+                        >Chci testovat aplikaci</a
+                    >
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="wrap">
+                <div class="mask wm" role="img" aria-label="uniride"></div>
+                <div>Ride free. Study more.</div>
+                <div>Studentský projekt pro ČVUT</div>
+            </div>
+        </footer>
+    </body>
 </html>
